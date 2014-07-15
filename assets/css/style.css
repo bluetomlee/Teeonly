@@ -1,0 +1,308 @@
+/* reset */
+html, body, h1, h2, h3, h4, h5, h6, div, dl, dt, dd, ul, ol, li, p, blockquote, pre, hr, figure, table, caption, th, td, form, fieldset, legend, input, button, textarea, menu {
+  margin: 0;
+  padding: 0; }
+
+header, footer, section, article, aside, nav, hgroup, address, figure, figcaption, menu, details {
+  display: block; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th {
+  text-align: left;
+  font-weight: normal; }
+
+html, body, fieldset, img, iframe, abbr {
+  border: 0; }
+
+i, cite, em, var, address, dfn {
+  font-style: normal; }
+
+[hidefocus], summary {
+  outline: 0; }
+
+li {
+  list-style: none; }
+
+h1, h2, h3, h4, h5, h6, small {
+  font-size: 100%; }
+
+sup, sub {
+  font-size: 83%; }
+
+pre, code, kbd, samp {
+  font-family: inherit; }
+
+q:before, q:after {
+  content: none; }
+
+textarea {
+  overflow: auto;
+  resize: none; }
+
+label, summary {
+  cursor: default; }
+
+a, button {
+  cursor: pointer; }
+
+h1, h2, h3, h4, h5, h6, em, strong, b {
+  font-weight: bold; }
+
+del, ins, u, s, a, a:hover {
+  text-decoration: none; }
+
+body, textarea, input, button, select, keygen, legend {
+  font: 12px/1.88 Microsoft YaHei,arial,\5b8b\4f53;
+  color: #919191;
+  outline: 0; }
+
+body {
+  background: #fff; }
+
+a, a:hover {
+  color: #333; }
+
+.cl:after {
+  content: "";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both; }
+
+.cl {
+  *zoom: 1; }
+
+.f-fl {
+  float: left; }
+
+.btn {
+  display: inline-block;
+  border-radius: 4px;
+  text-align: center; }
+
+/* line 106, sprite/*.png */
+.sprite-sprite, .sprite-order-0, .sprite-order-c, .sprite-play-0, .sprite-play-c, .sprite-play-f, .sprite-search_bg, .sprite-start-0, .sprite-start-c, .sprite-zoom {
+  background: url("../../img/ico-s13f27ee007.png") no-repeat; }
+
+/* line 60, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-order-0 {
+  background-position: 0 -240px; }
+
+/* line 60, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-order-c {
+  background-position: 0 -260px; }
+
+/* line 60, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-play-0 {
+  background-position: 0 -144px; }
+
+/* line 60, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-play-c {
+  background-position: 0 0; }
+
+/* line 60, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-play-f {
+  background-position: 0 -72px; }
+
+/* line 60, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-search_bg {
+  background-position: 0 -304px; }
+
+/* line 60, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-start-0 {
+  background-position: 0 -280px; }
+
+/* line 60, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-start-c {
+  background-position: 0 -216px; }
+
+/* line 60, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-zoom {
+  background-position: 0 -324px;
+  height: 15px;
+  display: inline-block;
+  width: 15px; }
+
+.g-vc {
+  width: 980px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.g-hd {
+  position: relative;
+  z-index: 1000; }
+
+.m-nav {
+  @extand .g-vc;
+  height: 74px;
+  background-color: #fff; }
+  .m-nav .logo {
+    float: left;
+    width: 164px;
+    height: 74px; }
+  .m-nav .m-sch {
+    float: left;
+    width: 203px;
+    padding: 0 0 0 10px;
+    line-height: 74px; }
+    .m-nav .m-sch .search {
+      width: 167px;
+      border-radius: 5px;
+      border: 1px solid #d7d7d7;
+      background: transparent; }
+  .m-nav .lg {
+    padding: 0 6px;
+    line-height: 74px; }
+    .m-nav .lg a {
+      color: #acacac;
+      font-size: 13px; }
+  .m-nav .m-menu {
+    float: right;
+    line-height: 74px; }
+    .m-nav .m-menu li {
+      float: left;
+      padding: 0 10px; }
+      .m-nav .m-menu li a {
+        font-size: 14px;
+        color: #606060; }
+    .m-nav .m-menu li:hover {
+      border-top: 2px solid #11a1f2;
+      display: block;
+      position: relative;
+      bottom: 0px;
+      height: 2px; }
+
+.m-sld {
+  background-color: #f0f3f5; }
+  .m-sld .ban {
+    background: url("../../img/slide1.png") no-repeat;
+    height: 380px; }
+    .m-sld .ban .play {
+      position: relative;
+      top: 72px;
+      left: 460px;
+      width: 72px;
+      display: inline-block; }
+    .m-sld .ban .start {
+      text-align: center;
+      position: relative;
+      top: 110px;
+      left: 629px;
+      width: 251px;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 14px 12px;
+      display: inline-block; }
+      .m-sld .ban .start h1 {
+        color: #dfcc13;
+        font-size: 18px;
+        line-height: 37px; }
+      .m-sld .ban .start p {
+        text-align: left; }
+      .m-sld .ban .start p, .m-sld .ban .start a {
+        color: white;
+        font-size: 14px; }
+      .m-sld .ban .start a {
+        text-align: center;
+        border: 1px solid #fff;
+        width: 100px; }
+
+.m-slogn {
+  padding: 20px 0;
+  height: 306px; }
+  .m-slogn .u-slg {
+    float: left;
+    padding-right: 54px;
+    width: 270px;
+    text-align: center; }
+    .m-slogn .u-slg p {
+      text-align: left; }
+
+.m-hot {
+  padding: 20px 0;
+  background: #f0f3f5; }
+  .m-hot .bd {
+    height: 930px; }
+  .m-hot .u-hot {
+    float: left; }
+  .m-hot h1 {
+    font-size: 19px;
+    color: #757272;
+    display: inline-block;
+    padding-bottom: 10px; }
+  .m-hot .u-cardli {
+    width: 720px; }
+    .m-hot .u-cardli .u-card {
+      width: 283px;
+      margin-right: 70px;
+      padding-bottom: 46px;
+      display: inline-block; }
+      .m-hot .u-cardli .u-card .tt a {
+        color: #2d9bb9;
+        font: 14px/1.4 arial,Microsoft Yahei,\5b8b\4f53; }
+      .m-hot .u-cardli .u-card .inf h4 {
+        color: a5a8a7;
+        float: left; }
+        .m-hot .u-cardli .u-card .inf h4 a {
+          color: #2d9bb9; }
+      .m-hot .u-cardli .u-card .inf .order {
+        border: 1px solid #2d9bb9;
+        width: 52px;
+        float: right;
+        color: #2d9bb9; }
+      .m-hot .u-cardli .u-card .u-card-front img {
+        width: 283px;
+        height: 338px; }
+  .m-hot .u-roll {
+    width: 200px;
+    padding-left: 50px; }
+    .m-hot .u-roll .review-feed .review {
+      border-bottom: 1px solid #dcdcdc;
+      height: 147px;
+      padding-top: 10px; }
+      .m-hot .u-roll .review-feed .review .author .review-ico img {
+        width: 50px;
+        border-radius: 27px;
+        float: left; }
+      .m-hot .u-roll .review-feed .review .author em {
+        line-height: 50px;
+        padding-left: 15px;
+        color: #319bbd;
+        font-size: 13px; }
+      .m-hot .u-roll .review-feed .review .quote {
+        padding-top: 11px; }
+
+.g-ft {
+  background: #78c6dd;
+  color: #fff;
+  height: 164px; }
+  .g-ft h3 {
+    color: #fff; }
+  .g-ft .u-ft-left h3 {
+    line-height: 150px; }
+    .g-ft .u-ft-left h3 strong {
+      font-size: 19px; }
+  .g-ft .ft-right {
+    float: right;
+    padding: 21px; }
+    .g-ft .ft-right .ft-nav {
+      width: 62px;
+      padding-left: 30px; }
+      .g-ft .ft-right .ft-nav h3 {
+        line-height: 30px; }
+      .g-ft .ft-right .ft-nav a {
+        color: #fff;
+        line-height: 27px; }
+      .g-ft .ft-right .ft-nav .inc {
+        display: inline-block;
+        width: 120px;
+        padding-top: 6px; }
+    .g-ft .ft-right .ewm {
+      text-align: center;
+      padding-left: 30px; }
+      .g-ft .ft-right .ewm img {
+        width: 87px; }
+
+/*# sourceMappingURL=style.css.map */
