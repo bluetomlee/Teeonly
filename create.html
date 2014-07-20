@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tee-only</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link type="text/css" rel="stylesheet" href="assets/css/jquery.miniColors.css" />
+	<script src="http://upcdn.b0.upaiyun.com/libs/jquery/jquery-1.10.2.min.js"></script>
+	<script src="assets/js/core.js"></script></head>
+	<script type="text/javascript" src="assets/js/fabric.js"></script>
+	<script type="text/javascript" src="assets/js/tshirtEditor.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.miniColors.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+<body class="preview" data-spy="scroll" data-target=".subnav" data-offset="80">
+	<div class="g-hd">
+		<div class="m-nav g-vc">
+				<img src="" alt="logo" class="logo">
+				<div class="m-sch">
+					<input type="text" class="search sprite-sprite sprite-search_bg">
+					<div class="sprite-sprite sprite-zoom"></div>
+				</div>
+				<div class="lg f-fl" data-toggle="modal" data-target="#myModal"><a href="javascript:;">注册</a></div> 
+				<div class="lg f-fl" data-toggle="modal" data-target="#myModal"><a href="javascript:;">登录</a></div> 
+			<ul class="m-menu">
+			<li><a href="">首页</a></li>
+			<li><a href="">网友作品</a></li>
+			<li><a href="">邀请好友</a></li>
+			<li><a href="">神秘商店</a></li>
+			<li><a href="">关于我们</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="m-cr g-bd">
+		<div class="g-vc">
+			<div class="crm">
+			<span class="step1-1_outer active"><a class="step1-1" href="">创作T恤</a><strong>》</strong></span>
+			<span class="step0-2_outer"><a href=""><i class="step0-2"></i>设定目标</a><strong>》</strong></span>
+			<span class="step0-3_outer"><a href=""><i class="step0-3"></i>添加描述</a></span>
+		</div>
+		<div class="ds">
+			<div class="text">
+				<div class="form-group"><lable class="tt">添加文字</lable>
+				<input type="text" id="text-string" name="tt" class="ttt">
+				</div>
+				<div class="form-group"><lable class="ft">选择字体</lable>
+				<select name="ft" class="ftt">
+					<option value="yahei">微软雅黑</option>
+					<option value="simson">宋体</option>
+					<option value="lishu">隶书</option>
+				</select>
+				</div>
+				<div class="form-group">
+				<lable class="cl">字体颜色</lable>
+				<select name="cl" class="clt">
+					  <option   value="Black"   style="color:black;background-color:black">Black</option>    
+				      <option   value="Red"   style="color:red;background-color:red">Red</option>    
+				      <option   value="Yellow"   style="color:yellow;background-color:yellow">Yellow</option>    
+				      <option   value="Pink"   style="color:pink;background-color:pink">Pink</option>    
+				      <option   value="Green"   style="color:green;background-color:green">Green</option>    
+				      <option   value="Orange"   style="color:orange;background-color:orange">Orange</option>    
+				      <option   value="Purple"   style="color:purple;background-color:purple">Purple</option>    
+				      <option   value="Blue"   style="color:blue;background-color:blue">Blue</option>    
+				      <option   value="Beige"   style="color:beige;background-color:beige">Beige</option>    
+				      <option   value="Brown"   style="color:brown;background-color:brown">Brown</option>    
+				      <option   value="Teal"   style="color:teal;background-color:teal">Teal</option>    
+				      <option   value="Navy"   style="color:navy;background-color:navy">Navy</option>    
+				      <option   value="Maroon"   style="color:maroon;background-color:maroon">Maroon</option>    
+				      <option   value="LimeGreen"   style="color:limegreen;background-color:limegreen">LimeGreen</option>
+				</select>
+				</div>
+				<div class="form-group">
+				<lable class="fts">字体样式</lable>
+				<select name="fts" class="ftst">
+					<option value="yahei">Regular</option>
+					<option value="simson">宋体</option>
+					<option value="lishu">隶书</option>
+				</select>
+				</div>
+				<div class="form-group">
+					<lable class="btn gry upload">添加图形</lable>
+					<a class="btn gry img-cs-0">&nbsp;</a>
+					<a class="local">&nbsp;</a>
+				</div>
+				<div class="form-group">
+				<span><em>￥50.5元</em></span>
+				<a id="add-text" class="btn next_0">&nbsp;</a>
+				</div>
+			</div>
+			<div class="show">
+				<div class="style text f-fl">
+				<div class="form-group">
+					<lable class="st">款式和颜色</lable>
+					<ul class="nav">
+								<li class="color-preview" title="White" style="background-color:#ffffff;"></li>
+								<li class="color-preview" title="Dark Heather" style="background-color:#616161;"></li>
+								<li class="color-preview" title="Gray" style="background-color:#f0f0f0;"></li>
+								<li class="color-preview" title="Charcoal" style="background-color:#5b5b5b;"></li>
+								<li class="color-preview" title="Black" style="background-color:#222222;"></li>
+								<li class="color-preview" title="Heather Orange" style="background-color:#fc8d74;"></li>
+								<li class="color-preview" title="Heather Dark Chocolate" style="background-color:#432d26;"></li>
+								<li class="color-preview" title="Salmon" style="background-color:#eead91;"></li>
+								<li class="color-preview" title="Chesnut" style="background-color:#806355;"></li>
+								<li class="color-preview" title="Dark Chocolate" style="background-color:#382d21;"></li>
+								<li class="color-preview" title="Citrus Yellow" style="background-color:#faef93;"></li>
+								<li class="color-preview" title="Avocado" style="background-color:#aeba5e;"></li>
+								<li class="color-preview" title="Kiwi" style="background-color:#8aa140;"></li>
+								<li class="color-preview" title="Irish Green" style="background-color:#1f6522;"></li>
+								<li class="color-preview" title="Scrub Green" style="background-color:#13afa2;"></li>
+								<li class="color-preview" title="Teal Ice" style="background-color:#b8d5d7;"></li>
+								<li class="color-preview" title="Heather Sapphire" style="background-color:#15aeda;"></li>
+								<li class="color-preview" title="Sky" style="background-color:#a5def8;"></li>
+								<li class="color-preview" title="Antique Sapphire" style="background-color:#0f77c0;"></li>
+								<li class="color-preview" title="Heather Navy" style="background-color:#3469b7;"></li>							
+								<li class="color-preview" title="Cherry Red" style="background-color:#c50404;"></li>
+							</ul>
+				</div>
+				<div class="form-group">
+				<select name="st">
+					<option value="yahei">短袖T恤</option>
+					<option value="simson">长袖</option>
+				</select>
+				</div>
+				<a class="btn roll-0">&nbsp;</a>
+				</div>
+				<div id="shirtDiv" class="page f-fl" style="width: 530px; height: 630px; position: relative; background-color: rgb(255, 255, 255);">
+						<img id="tshirtFacing" src="img/a_front.png"></img>
+						<div id="drawingArea" style="position: absolute;top: 100px;left: 160px;z-index: 10;width: 200px;height: 400px;">					
+							<canvas id="tcanvas" width=200 height="400" class="hover" style="-webkit-user-select: none;"></canvas>
+						</div>
+					</div>
+				<div class="stick f-fl">
+					<h3>小贴士</h3>
+					<p>你可以在操作面板自由选择T恤款式及颜色，添加自定义文字及图案。通过左侧翻转按钮可以编辑T恤背面，尽情享受自由创作的乐趣。</p>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div class="g-ft">
+		<div class="g-vc">
+			<div class="u-ft-left f-fl">
+				<h3>现已收录<strong>2500</strong>件作品</h3>
+			</div>
+			<div class="ft-right">
+				<div class="ft-nav f-fl">
+					<h3>公司</h3>
+					<a href="">关于公司</a>
+					<a href="">加入我们</a>
+					<a class="inc" href="">© 2014 Teeonly Inc.</a>
+				</div>
+				<div class="ft-nav f-fl">
+					<h3>支持</h3>
+					<a href="">隐私权政策</a>
+					<a href="">联系我们</a>
+				</div>
+				<div class="ewm f-fl">
+					<img src="img/ewm.png" alt="">
+					<p>扫描二维码加入唯T官方微博</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
